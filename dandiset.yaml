@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000623
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -9,16 +10,73 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: 'Kyzar, Michael (2023) Data for: Multimodal brain responses during movie
-  watching: single-neuron, intracranial EEG, and fMRI in human patients (Version draft)
-  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000623/draft'
+citation: 'Keles, Umit; Dubois, Julien; Mei, Kevin; Tyszka, J. Michael; Kahn, David
+  A.; Reed, Chrystal M.; Chung, Jeffrey M. ; Mamelak, Adam N.; Adolphs, Ralph (2023)
+  Multimodal brain responses during movie watching: single-neuron, intracranial EEG,
+  and fMRI in human patients (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000623/draft'
 contributor:
 - affiliation: []
-  email: kyzarnexus@gmail.com
   includeInCitation: true
+  name: Keles, Umit
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Dubois, Julien
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Mei, Kevin
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Tyszka, J. Michael
+  roleName: []
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Kahn, David A.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Reed, Chrystal M.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: 'Chung, Jeffrey M. '
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Mamelak, Adam N.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Adolphs, Ralph
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- {}
+- affiliation: []
+  email: kyzarnexus@gmail.com
+  identifier: 0009-0004-4392-9933
+  includeInCitation: false
   name: Kyzar, Michael
   roleName:
-  - dcite:ContactPerson
+  - dcite:ProjectMember
   schemaKey: Person
 dateCreated: '2023-08-31T18:13:43.895059+00:00'
 description: 'We present a multimodal dataset of intracranial recordings, fMRI, and
@@ -40,16 +98,22 @@ description: 'We present a multimodal dataset of intracranial recordings, fMRI, 
 
 
   Git Link: https://github.com/rutishauserlab/bmovie-release-NWB-BIDS'
+ethicsApproval: []
 id: DANDI:000623/draft
 identifier: DANDI:000623
+keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000623/versions/draft/assets/
-name: 'Data for: Multimodal brain responses during movie watching: single-neuron,
-  intracranial EEG, and fMRI in human patients'
+name: 'Multimodal brain responses during movie watching: single-neuron, intracranial
+  EEG, and fMRI in human patients'
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000623/draft
 version: draft
+wasGeneratedBy: []
