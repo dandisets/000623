@@ -85,7 +85,7 @@ contributor:
   - dcite:Author
   schemaKey: Person
 dateCreated: '2023-08-31T18:13:43.895059+00:00'
-datePublished: '2023-09-21T20:41:52.109896+00:00'
+datePublished: '2023-09-26T18:14:46.531141+00:00'
 description: 'We present a multimodal dataset of intracranial recordings, fMRI, and
   eye tracking in 20 human participants. Intracranial recordings consist of single
   neurons, local field potential, and intracranial EEG activity recorded concurrently
@@ -118,13 +118,13 @@ name: 'Multimodal brain responses during movie watching: single-neuron, intracra
   EEG, and fMRI in human patients'
 protocol: []
 publishedBy:
-  endDate: '2023-09-21T20:41:52.109896+00:00'
-  id: urn:uuid:4045b5f1-913d-4011-bbec-356d9e506985
+  endDate: '2023-09-26T18:14:46.531141+00:00'
+  id: urn:uuid:19aa6f81-199f-4bcd-826f-4e873ef41b5d
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-09-21T20:41:52.109896+00:00'
+  startDate: '2023-09-26T18:14:46.531141+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:20583577-4ba0-4ed3-87a0-4d1734da5d86
+  - id: urn:uuid:f9b1214e-09dd-42ed-9743-48670a3ea56d
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
