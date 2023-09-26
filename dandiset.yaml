@@ -7,46 +7,9 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach:
-  - name: behavioral approach
-    schemaKey: ApproachType
-  - name: electrophysiological approach
-    schemaKey: ApproachType
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique:
-  - name: behavioral technique
-    schemaKey: MeasurementTechniqueType
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
-  - name: spike sorting technique
-    schemaKey: MeasurementTechniqueType
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
-  - name: multi electrode extracellular electrophysiology recording technique
-    schemaKey: MeasurementTechniqueType
-  - name: signal filtering technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 25788611804
-  numberOfFiles: 26
-  numberOfSubjects: 14
+  numberOfBytes: 0
+  numberOfFiles: 0
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
-    name: Homo sapiens - Human
-    schemaKey: SpeciesType
-  variableMeasured:
-  - EyeTracking
-  - ProcessingModule
-  - Units
-  - LFP
-  - BehavioralTimeSeries
-  - PupilTracking
-  - ElectrodeGroup
-  - ElectricalSeries
-  - SpatialSeries
 citation: 'Keles, Umit; Dubois, Julien; Mei, Kevin; Tyszka, J. Michael; Kahn, David
   A.; Reed, Chrystal M.; Chung, Jeffrey M. ; Mamelak, Adam N.; Adolphs, Ralph; Rutishauser,
   Ueli (2023) Multimodal brain responses during movie watching: single-neuron, intracranial
