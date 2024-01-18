@@ -29,8 +29,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 27252547993
-  numberOfFiles: 28
+  numberOfBytes: 27744749325
+  numberOfFiles: 29
   numberOfSubjects: 16
   schemaKey: AssetsSummary
   species:
@@ -47,10 +47,11 @@ assetsSummary:
   - SpatialSeries
   - ProcessingModule
   - Units
-citation: 'Keles, Umit; Dubois, Julien; Mei, Kevin; Tyszka, J. Michael; Kahn, David
-  A.; Reed, Chrystal M.; Chung, Jeffrey M. ; Mamelak, Adam N.; Adolphs, Ralph; Rutishauser,
-  Ueli (2023) Multimodal brain responses during movie watching: single-neuron, intracranial
-  EEG, and fMRI in human patients (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234'
+citation: 'Keles, Umit; Dubois, Julien; Le, Kevin J. M.; Tyszka, J. Michael; Kahn,
+  David A.; Reed, Chrystal M.; Chung, Jeffrey M. ; Mamelak, Adam N.; Adolphs, Ralph;
+  Rutishauser, Ueli (2024) Multimodal brain responses during movie watching: single-neuron,
+  intracranial EEG, and fMRI in human patients (Version draft) [Data set]. DANDI archive.
+  https://doi.org/10.80507/dandi.123456/0.123456.1234'
 contributor:
 - affiliation: []
   includeInCitation: true
@@ -67,7 +68,7 @@ contributor:
   schemaKey: Person
 - affiliation: []
   includeInCitation: true
-  name: Mei, Kevin
+  name: Le, Kevin J. M.
   roleName:
   - dcite:Author
   schemaKey: Person
@@ -122,7 +123,7 @@ contributor:
   - dcite:Author
   schemaKey: Person
 dateCreated: '2023-08-31T18:13:43.895059+00:00'
-datePublished: '2023-09-26T18:14:46.531141+00:00'
+datePublished: '2024-01-18T20:48:23.723525+00:00'
 description: 'We present a multimodal dataset of intracranial recordings, fMRI, and
   eye tracking in 20 human participants. Intracranial recordings consist of single
   neurons, local field potential, and intracranial EEG activity recorded concurrently
@@ -155,13 +156,13 @@ name: 'Multimodal brain responses during movie watching: single-neuron, intracra
   EEG, and fMRI in human patients'
 protocol: []
 publishedBy:
-  endDate: '2023-09-26T18:14:46.531141+00:00'
-  id: urn:uuid:19aa6f81-199f-4bcd-826f-4e873ef41b5d
+  endDate: '2024-01-18T20:48:23.723525+00:00'
+  id: urn:uuid:93025660-f7ac-4c73-b1f1-94e445a315c6
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-09-26T18:14:46.531141+00:00'
+  startDate: '2024-01-18T20:48:23.723525+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:f9b1214e-09dd-42ed-9743-48670a3ea56d
+  - id: urn:uuid:e5eb5fd4-d9c0-491e-898e-618f46f044d3
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
