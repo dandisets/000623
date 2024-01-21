@@ -49,9 +49,9 @@ assetsSummary:
   - Units
 citation: 'Keles, Umit; Dubois, Julien; Le, Kevin J. M.; Tyszka, J. Michael; Kahn,
   David A.; Reed, Chrystal M.; Chung, Jeffrey M. ; Mamelak, Adam N.; Adolphs, Ralph;
-  Rutishauser, Ueli (2024) Multimodal brain responses during movie watching: single-neuron,
-  intracranial EEG, and fMRI in human patients (Version draft) [Data set]. DANDI archive.
-  https://doi.org/10.80507/dandi.123456/0.123456.1234'
+  Rutishauser, Ueli (2024) Data for: Multimodal brain responses during movie watching:
+  single-neuron, intracranial EEG, and fMRI in human patients (Version draft) [Data
+  set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234'
 contributor:
 - affiliation: []
   includeInCitation: true
@@ -123,7 +123,7 @@ contributor:
   - dcite:Author
   schemaKey: Person
 dateCreated: '2023-08-31T18:13:43.895059+00:00'
-datePublished: '2024-01-18T20:48:23.723525+00:00'
+datePublished: '2024-01-21T20:58:50.691129+00:00'
 description: 'We present a multimodal dataset of intracranial recordings, fMRI, and
   eye tracking in 20 human participants. Intracranial recordings consist of single
   neurons, local field potential, and intracranial EEG activity recorded concurrently
@@ -147,31 +147,49 @@ doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000623/draft
 identifier: DANDI:000623
-keywords: []
+keywords:
+- movie watching
+- recognition memory
+- single-neuron
+- iEEG
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000623/versions/draft/assets/
-name: 'Multimodal brain responses during movie watching: single-neuron, intracranial
-  EEG, and fMRI in human patients'
+name: 'Data for: Multimodal brain responses during movie watching: single-neuron,
+  intracranial EEG, and fMRI in human patients'
 protocol: []
 publishedBy:
-  endDate: '2024-01-18T20:48:23.723525+00:00'
-  id: urn:uuid:93025660-f7ac-4c73-b1f1-94e445a315c6
+  endDate: '2024-01-21T20:58:50.691129+00:00'
+  id: urn:uuid:89b08419-ce18-4dc0-b486-7b615aaa542e
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-01-18T20:48:23.723525+00:00'
+  startDate: '2024-01-21T20:58:50.691129+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:e5eb5fd4-d9c0-491e-898e-618f46f044d3
+  - id: urn:uuid:beda77ee-88e9-4494-aa19-ef3ae6b66404
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
     version: 0.1.0
-relatedResource: []
+relatedResource:
+- identifier: fMRI data
+  name: corresponding fMRI data
+  relation: dcite:IsSupplementedBy
+  repository: OpenNeuro
+  schemaKey: Resource
+  url: https://openneuro.org/datasets/ds004798/
+- name: Supplementary code
+  relation: dcite:IsSupplementedBy
+  repository: Github
+  schemaKey: Resource
+  url: https://github.com/rutishauserlab/bmovie-release-NWB-BIDS
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
-studyTarget: []
+studyTarget:
+- amygdala
+- ' hippocampus'
+- ' medial frontal cortex'
 url: https://dandiarchive.org/dandiset/000623/draft
 version: draft
 wasGeneratedBy: []
