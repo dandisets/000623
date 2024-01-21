@@ -50,8 +50,8 @@ assetsSummary:
 citation: 'Keles, Umit; Dubois, Julien; Le, Kevin J. M.; Tyszka, J. Michael; Kahn,
   David A.; Reed, Chrystal M.; Chung, Jeffrey M. ; Mamelak, Adam N.; Adolphs, Ralph;
   Rutishauser, Ueli (2024) Data for: Multimodal brain responses during movie watching:
-  single-neuron, intracranial EEG, and fMRI in human patients (Version draft) [Data
-  set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234'
+  single-neuron, intracranial EEG, and fMRI in human patients (Version 0.240121.2058)
+  [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000623/0.240121.2058'
 contributor:
 - affiliation: []
   includeInCitation: true
@@ -143,9 +143,9 @@ description: 'We present a multimodal dataset of intracranial recordings, fMRI, 
 
 
   Git Link: https://github.com/rutishauserlab/bmovie-release-NWB-BIDS'
-doi: 10.80507/dandi.123456/0.123456.1234
+doi: 10.48324/dandi.000623/0.240121.2058
 ethicsApproval: []
-id: DANDI:000623/draft
+id: DANDI:000623/0.240121.2058
 identifier: DANDI:000623
 keywords:
 - movie watching
@@ -155,7 +155,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000623/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000623/0.240121.2058/assets.yaml
 name: 'Data for: Multimodal brain responses during movie watching: single-neuron,
   intracranial EEG, and fMRI in human patients'
 protocol: []
@@ -190,6 +190,6 @@ studyTarget:
 - amygdala
 - ' hippocampus'
 - ' medial frontal cortex'
-url: https://dandiarchive.org/dandiset/000623/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000623/0.240121.2058
+version: 0.240121.2058
 wasGeneratedBy: []
