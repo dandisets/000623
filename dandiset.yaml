@@ -49,8 +49,8 @@ assetsSummary:
   - Units
 citation: 'Keles, Umit; Dubois, Julien; Le, Kevin J. M.; Tyszka, J. Michael; Kahn,
   David A.; Reed, Chrystal M.; Chung, Jeffrey M. ; Mamelak, Adam N.; Adolphs, Ralph;
-  Rutishauser, Ueli (2024) Data for: Multimodal brain responses during movie watching:
-  single-neuron, intracranial EEG, and fMRI in human patients (Version draft) [Data
+  Rutishauser, Ueli (2024) Data for: Multimodal single-neuron, intracranial EEG, and
+  fMRI brain responses during movie watching in human patients (Version draft) [Data
   set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234'
 contributor:
 - affiliation: []
@@ -123,7 +123,7 @@ contributor:
   - dcite:Author
   schemaKey: Person
 dateCreated: '2023-08-31T18:13:43.895059+00:00'
-datePublished: '2024-01-21T20:58:50.691129+00:00'
+datePublished: '2024-01-30T21:08:50.048589+00:00'
 description: 'We present a multimodal dataset of intracranial recordings, fMRI, and
   eye tracking in 20 human participants. Intracranial recordings consist of single
   neurons, local field potential, and intracranial EEG activity recorded concurrently
@@ -156,17 +156,17 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000623/versions/draft/assets/
-name: 'Data for: Multimodal brain responses during movie watching: single-neuron,
-  intracranial EEG, and fMRI in human patients'
+name: 'Data for: Multimodal single-neuron, intracranial EEG, and fMRI brain responses
+  during movie watching in human patients'
 protocol: []
 publishedBy:
-  endDate: '2024-01-21T20:58:50.691129+00:00'
-  id: urn:uuid:89b08419-ce18-4dc0-b486-7b615aaa542e
+  endDate: '2024-01-30T21:08:50.048589+00:00'
+  id: urn:uuid:961fc250-f485-4a86-9d45-3a44e46e8f94
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-01-21T20:58:50.691129+00:00'
+  startDate: '2024-01-30T21:08:50.048589+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:beda77ee-88e9-4494-aa19-ef3ae6b66404
+  - id: urn:uuid:79c24047-aff6-4d3a-86ff-30a731526e8d
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
